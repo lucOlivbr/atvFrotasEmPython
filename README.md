@@ -1,9 +1,7 @@
 # Sistema de Controle de Frota - Python
 
 Atividade de POO - 1º Período  
-Feito em dupla no Google Colab
-
----
+Feito no Google Colab
 
 ## Arquivos do projeto
 
@@ -15,13 +13,9 @@ Feito em dupla no Google Colab
 - frota.py — classe Frota que gerencia tudo
 - main.py — arquivo principal com o menu
 
----
-
 ## Como rodar no Google Colab
 
 Fazer upload do arquivo `frota_corporativa.ipynb` no Google Colab e executar as células em ordem. A última célula inicia o sistema com `%run main.py`.
-
----
 
 ## Questões conceituais
 
@@ -65,8 +59,6 @@ A Manutencao registra quando um veículo precisa de algum serviço. Ela guarda q
 
 Em uma empresa real daria para conectar esse sistema a um banco de dados para salvar as informações entre execuções. Também daria para fazer uma interface web ou um aplicativo para os funcionários usarem pelo celular. Poderia ter alertas quando um veículo atingir muitos km e precisar de revisão, ou relatórios de gasto com manutenção por mês. A estrutura de classes que fizemos já facilita expandir o sistema com essas funcionalidades.
 
----
-
 ## Desafios implementados
 
 1. Menu com `input()` para cadastrar motoristas e veículos — `main.py`
@@ -77,8 +69,6 @@ Em uma empresa real daria para conectar esse sistema a um banco de dados para sa
 6. Classe Onibus — `veiculo.py`
 7. KM rodados por veículo — `frota.py`, método `relatorio_km_por_veiculo()`
 8. Veículos com mais de 100.000 km — `frota.py`, método `veiculos_alta_quilometragem()`
-
----
 
 ## Onde usamos herança, encapsulamento e polimorfismo
 
