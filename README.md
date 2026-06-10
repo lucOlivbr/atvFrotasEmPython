@@ -1,7 +1,7 @@
 # Sistema de Controle de Frota - Python
 
 Atividade de POO - 1º Período  
-Feito no Google Colab
+Aluno: Lucas Alves Oliveira - RA: 326129404
 
 ## Arquivos do projeto
 
